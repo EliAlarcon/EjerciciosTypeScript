@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Acumulador } from './Components/Acumulador';
+//import { ObjetoAlumnos } from './typescript/ObjetoAlumnos';
+//import { TextosNumeros } from './typescript/TextosNumeros';
+//import { ParImpar } from './typescript/ParImpar';
+//import { ArregloDividido } from './typescript/ArregloDividido';
+//import { FuncionSumaArreglo } from './typescript/FuncionSumaArreglo';
+//import { FuncionArea } from './typescript/FuncionArea';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mt-2'>
+      <h1>Actividad Autónoma 1</h1>
+      <h2>EJERCICIOS TYPESCRIPT - REACT</h2>
+      <hr/>
+      {/* <FuncionArea/> */}
+      {/* <FuncionSumaArreglo/> */}
+      {/* <ArregloDividido/> */}
+      {/* <ParImpar/> */}
+      {/* <TextosNumeros/> */}
+      {/* <ObjetoAlumnos/> */}
+      <Acumulador/>
     </div>
-  );
+  )
 }
 
 export default App;
